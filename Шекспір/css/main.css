@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    color: black;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul, li{
+
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    background-color: brown;
+}
+
+.menu-items{
+    display: flex;
+}
+
+.logo{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+    align-items: center;
+}
+
+.menu-item{
+    padding: 30px;
+    align-items: center;
+    transition: .2s;
+}
+
+.menu-item:hover{
+    background-color: rgb(126, 30, 30);
+}
+
+.active-item{
+    background-color: rgb(126, 30, 30);
+}
+
+/* content */
+
+.content{
+    padding-top: 30px;
+}
+
+.bio{
+    display: flex;
+}
+
+.text h1{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #00000020;
+}
+
+.text span{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.text-bio{
+    margin-left: 33px;
+    background-color: grey;
+    height: 550px;
+}
+
+.bio_img{
+    height: 335px;
+    width: 260px;
+    border: 10px solid grey;
+}
+
+.biog-desc p{
+    display: flex;
+    margin-left: 10px;
+}
+
+.mini-info{
+    width: 41px;
+    margin-right: 40px;
+}
+
+/* footer */
+
+.footer{
+
+}
+
+.foto{
+    height: 170px;
+    width: 135px;
+}
+
+.fotos-autors{
+    display: flex;
+    padding: 15px;
+    border: 1px solid #00000020;
+}
+
+.fotosblock{
+    display: block;
+    text-align: center;
+}
+
+.fotosblock:not(:last-child){
+    margin-right: 12px;
+}
